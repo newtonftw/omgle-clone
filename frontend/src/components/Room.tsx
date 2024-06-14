@@ -5,9 +5,9 @@ export const Room = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const name = searchParams.get('name');
 
-    useEffect{() => {
+    useEffect(() => {
         
-    }, [name]}
+    }, [name])
    
     return <div>
         Hi {name}
